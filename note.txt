@@ -1,0 +1,30 @@
+ DAY-1
+
+-npm init -y
+-code .(package.json is shown)
+-npm install express
+-npm install nodemon(this allows server to restart automatically)
+-npm install mongoose(mongodb framework)
+-npm install router(for route)
+-npm install dotenv
+
+-first create App.js
+-then create .env(environment variable)
+-then create .gitignore(this file does not allows data contained in it to go to github,
+                        like passwords contained on .env{environment variable})
+-write start instead of test on line 7 package.json and write nodemon app.js inside quotation removing exising comment
+
+MAKE 4 FOLDERS
+-controller is used to perform tasks like insert,read,delete,email signin up
+-db is used for database
+-model is used to make table structure of database
+-route is used to heat pages
+
+DAY-2
+-name database ecommerce and connected(mongodb)
+-create connection on db
+-create catagorymodel on model
+-error on server status:500
+-error on connection status:500
+-bodyParser is used to handle json data
+-npm install morgan
