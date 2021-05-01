@@ -30,6 +30,10 @@ product_rating:{
 sold_quantity:{
     type:Number,
     default:0
+},
+product_image:{
+    type:String,
+    required:true
 }
 
 
